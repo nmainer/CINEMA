@@ -1,0 +1,109 @@
+body{
+   
+    background-image:url(./imagenes/fondo\ pagina.jpg) ;
+    background-size: cover;
+   
+}
+.titulocinema{
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.imgicono{
+    margin-bottom: -1.5rem;
+    margin-top: -2rem;
+    width: 10rem;
+    height: auto; 
+}
+
+
+a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white; 
+    
+}
+.enlace1{
+    margin-right: 8rem;
+   
+}
+.enlace2{
+    margin-right: 15rem;
+}
+.menuenlaces{
+    
+    background-color: rgb(15, 15, 15);
+    height: 0.2rem;
+    margin: auto;
+    box-shadow: 0px 5px 9px rgb(107, 13, 13) ;
+    text-align: end;
+    padding: 1rem;
+    opacity: 0.8;
+}
+.tituloeicono{
+    display: flex;
+    position: relative;
+}
+.tituloeicono ::before{
+    content: "";
+    position: absolute;
+    top:05rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url();
+    filter: grayscale(100%);
+    opacity: 0.3;
+    background-size: cover;
+    z-index: -1;
+}
+.contenedor{
+    width: 80vw;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.tar{
+    width: fit-content;
+    height: fit-content;
+    opacity: 0.8;
+    padding: 2rem;
+    text-align: center;
+    
+   
+}
+.tit1{
+    font-size: 1rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tit2{
+    font-size: 0.5rem;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imgtarjeta{
+    width: 10rem;
+    height: auto;
+}
+footer{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    background-color: black;
+    opacity: 0.4;
+    margin-top: 10rem;
+}
+
+

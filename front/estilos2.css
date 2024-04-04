@@ -1,0 +1,75 @@
+body{
+   
+    background-image:url(./imagenes/fondo\ pagina.jpg) ;
+    background-size: cover;
+   
+}
+.enlacesobremi{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    margin-right: 15rem;
+    padding-top: 2rem;
+}
+.titulocinema{
+    margin-top: 2rem;
+    font-size: 3rem;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.imgicono{
+    margin-bottom: -1.5rem;
+    margin-top: -2rem;
+    width: 10rem;
+    height: auto; 
+}
+.tituloeicono{
+    display: flex;
+}
+
+.imagenytextosobremi{
+    
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+.imgsobremi{
+width: 40%;
+height: auto;
+border-radius: 1rem;
+}
+.textosobremi{
+width: 40%;
+height: auto;
+color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-top: 2rem;
+}
+footer{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    background-color: black;
+    opacity: 0.4;
+    margin-top: 10rem;
+}
+.enlacesobre{
+ display: flex;
+ justify-content: end;
+}
+.textohistoria{
+    width: 60vw;
+    margin: auto;
+    margin-top:  3rem;
+}
+.historia{
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

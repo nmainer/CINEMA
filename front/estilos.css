@@ -47,21 +47,9 @@ a{
 }
 .tituloeicono{
     display: flex;
-    position: relative;
+   
 }
-.tituloeicono ::before{
-    content: "";
-    position: absolute;
-    top:05rem;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url();
-    filter: grayscale(100%);
-    opacity: 0.3;
-    background-size: cover;
-    z-index: -1;
-}
+
 .contenedor{
     width: 80vw;
     margin: auto;
@@ -75,7 +63,6 @@ a{
 .tar{
     width: fit-content;
     height: fit-content;
-    opacity: 0.8;
     padding: 2rem;
     text-align: center;
     
@@ -105,5 +92,3 @@ footer{
     opacity: 0.4;
     margin-top: 10rem;
 }
-
-

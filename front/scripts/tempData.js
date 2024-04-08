@@ -1,4 +1,4 @@
-const tempData = [
+/*const tempData = [
   {
     title: "Back to the Future 2",
     year: 1989,
@@ -68,4 +68,4 @@ const tempData = [
       "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg",
   },
  
-];
+]; */

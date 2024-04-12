@@ -16,6 +16,7 @@ function valor (elemento){
         let ra = document.createElement("p");
         let pos = document.createElement("img");
         let tarjeta = document.createElement("div");
+       
         
         titulo.href=
         titulo.textContent= obj.title;
@@ -25,6 +26,8 @@ function valor (elemento){
         gen.innerHTML= obj.genre;
         ra.innerHTML= obj.rate;
         pos.src= obj.poster;
+
+
         
         
         tarjeta.classList.add("tar");
@@ -35,18 +38,21 @@ function valor (elemento){
         gen.classList.add("tit2");
         ra.classList.add("tit2");
         pos.classList.add("imgtarjeta");
+
+
         
         tarjeta.appendChild(titulo);
+        tarjeta.appendChild(pos);
         tarjeta.appendChild(año);
         tarjeta.appendChild(dir);
         tarjeta.appendChild(durac);
         tarjeta.appendChild(gen);
         tarjeta.appendChild(ra);
-        tarjeta.appendChild(pos);
         
         
         
         let conteiner = document.querySelector(".contenedor");
+        
         
         conteiner.appendChild(tarjeta);
         

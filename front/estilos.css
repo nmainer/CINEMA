@@ -21,6 +21,7 @@
 /* barra superior nav*/
 .navegacion{
     color: black;
+    font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .navegacion:hover{
@@ -35,7 +36,7 @@
 /* Titulo icono y fondo principal*/
 .titulocinema{
     margin-top: 3rem;
-    margin-left: 1rem;
+    margin-right:3rem ;
     font-size: 4rem;
     color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -46,6 +47,7 @@
 .imgicono{
     margin-bottom: -1.5rem;
     margin-top: -2rem;
+    margin-right: 0.5rem;
     width: 10rem;
     height: auto; 
 }
@@ -57,8 +59,8 @@
     background-position: center;
     box-shadow: 2px 2px 8px black;
     margin-left:4rem ;
-    margin-right:4rem ;
-    margin-top: 3rem;
+    margin-right:6rem ;
+    margin-top: 6rem;
     display: flex;
     justify-content:flex-end; 
 }
@@ -93,20 +95,27 @@ footer::before{
 
 .imagenytextosobremi{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 4rem;
+    justify-content:center;
+    margin-top: 6rem;
     margin-bottom: 7rem;
 }
 .imgsobremi{
 width: 30%;
 height: auto;
+margin-top: 2rem;
+margin-right: 5rem;
 border-radius: 1rem;
 box-shadow: 2px 2px 8px black;
 }
 .textosobremi{
-    width: 40%;
-    height: auto;
-    padding-top: 5rem;
+    margin-top: 10rem;
+    font-weight: bold;
+    width: 30%;
+    height: fit-content;
+    border-radius: 1rem;
+    border: solid 3px rgb(61, 57, 57);
+    padding: 2rem;
+    box-shadow: 2px 2px 8px black;
 }
 
 /*elementos sobre historiadelcine.html*/
@@ -114,9 +123,22 @@ box-shadow: 2px 2px 8px black;
 .textohistoria{
     width: 80vh;
     margin: auto;
+    padding: 2rem;
     margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    border: solid 2px rgb(68, 64, 64);
+    box-shadow: 2px 2px 8px black;
 }
-
+#textohistorica{
+    margin-bottom: 22rem;
+}
+.historia{
+    font-weight: bold;
+}
+.previo{
+    color: black;
+}
 
 
 /*elementos aplicados al DOM*/
@@ -128,8 +150,17 @@ box-shadow: 2px 2px 8px black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 1rem;
+    border: solid 3px rgb(87, 77, 77);
+    padding: 1rem;
+    box-shadow: 2px 2px 8px black;
+    transition: transform 0.3s ease;
+}
+.tar:hover{
+    transform: scale(1.1);
 }
 .tit1{
+    font-weight: bold;
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
@@ -138,18 +169,21 @@ box-shadow: 2px 2px 8px black;
 
 
 .tit2{
+    font-weight: bold;
     font-size: 1rem;
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .imgtarjeta{
     
-    width: 10rem;
+    width: 15rem;
     height: auto;
+    box-shadow: 2px 2px 8px black;
 }
 .contenedor{
     display: flex;
     justify-content: space-evenly;
     margin-top: 4rem;
+    margin-bottom: 4rem;
    
 }

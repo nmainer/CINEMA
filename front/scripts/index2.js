@@ -45,8 +45,12 @@ function valor (obj){
         tarjeta.appendChild(gen);
         tarjeta.appendChild(ra);
         
+
+        let conteiner = document.querySelector(".contenedor");
+                 
+        conteiner.appendChild(tarjeta);
         
-        return tarjeta;
+
        
   };
 

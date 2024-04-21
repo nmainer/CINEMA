@@ -21,7 +21,7 @@ describe("Pruebas sobre la clase CarritoCompra", ()=>{
 
         expect(carro.carrito).toContain(producto1);
     });
-    it(" debe contener la funcion calcularTotal() donde devuelve el total de productos dentro del carrito" ,()=>{
+    it ("debe contener la funcion calcularTotal() donde devuelve el total de productos dentro del carrito" ,()=>{
         let producto1 = {
             producto: "split",
             precio: 3500,
@@ -39,7 +39,7 @@ describe("Pruebas sobre la clase CarritoCompra", ()=>{
             expect(carro.calcularTotal()).toEqual(19000);
 
     });
-    it(" debe contener la funcion aplicarDescuento(porcentaje) a los productos del carrito",()=>{
+    it ("debe contener la funcion aplicarDescuento(porcentaje) a los productos del carrito",()=>{
         carro.agregarProducto({producto:"tv",precio: 750, cantidad:1});
         carro.agregarProducto({producto:"audio",precio:450, cantidad:5});
 

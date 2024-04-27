@@ -1,4 +1,4 @@
-
+let {contenedor}= require("./index3");
 
 
 function valor (obj){
@@ -46,11 +46,7 @@ function valor (obj){
         tarjeta.appendChild(ra);
         
 
-        let conteiner = document.querySelector(".contenedor");
-                 
-        conteiner.appendChild(tarjeta);
-        
-
+        contenedor(tarjeta);
        
   };
 

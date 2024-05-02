@@ -1,10 +1,10 @@
 
 const {Router} = require("express");
-const controlMovie = require("../controladores/controlMovie");
 
+const {Movie} = require("../controladores/controlMovie");
 
 const rutaMovie = Router();
 
-rutaMovie.get("/", controlMovie.Movie)
+rutaMovie.get("/",Movie);
 
 module.exports = {rutaMovie}

@@ -1,3 +1,6 @@
+
+
+/*
 class Movie {
     constructor({title,year,director,duration,genre,rate,poster}){
         if(!title || !poster || !director){
@@ -37,7 +40,8 @@ class RepositorioMovie {
 };
 
 const valor =  new RepositorioMovie();
-const functionValor = valor.valores("https://students-api.up.railway.app/movies");
 
+const functionValor = valor.valores(Pelis2);
 
-module.exports = { functionValor };
+*/
+

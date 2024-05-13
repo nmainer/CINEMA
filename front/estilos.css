@@ -194,6 +194,45 @@ box-shadow: 2px 2px 8px black;
     display: flex;
     justify-content: space-evenly;
     margin-top: 4rem;
+    margin-bottom: 4rem;  
+}
+
+/* Elementos formulario Peli*/
+.formularioPeli{
+    margin-top: 4rem;
     margin-bottom: 4rem;
-   
+    
+}
+
+
+.formularioPeliContenedor{
+  width: fit-content;
+  margin: auto;
+}
+input{
+    width: 40rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: solid black 1px;
+    box-shadow: 2px 2px 8px black;
+    display: block;    
+}
+.peliInput{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cargarPeli ,
+.limpiarForm{
+    width: 16rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.submit{
+margin-top: 2rem;
+ display: flex;
+ justify-content: space-around;
 }

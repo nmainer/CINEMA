@@ -8,11 +8,22 @@ const Pelis = async ()=>{
         throw error;
     }
   
-} ;
+};
+
+const crearPeli = async (movie)=>{
+
+    try{
+        const valor = await Peli.create(movie);
+        return valor;
+    } catch(error){
+        throw error;
+    };
+};
 
 
 
 
 
 
-module.exports = {Pelis};
+
+module.exports = {Pelis,crearPeli};

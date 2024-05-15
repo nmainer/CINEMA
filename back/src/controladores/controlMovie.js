@@ -1,12 +1,11 @@
 
 
 const {Pelis,crearPeli} = require ("../servicios/servicioMongoose");
+const {catchErr} = require ("../Utils/catchErr");
 
-
-   const Movie = async (request,response) =>{
-
+   const Movies = async (req,res) =>{
         const valor2 = await Pelis();
-        response.status(200).send(valor2);
+        res.status(200).send(valor2);
    
     }
 
@@ -18,4 +17,7 @@ const {Pelis,crearPeli} = require ("../servicios/servicioMongoose");
 
 
 
-    module.exports = {Movie,newMovie};
+    module.exports = {
+        Movies:catchErr(Movies),
+        newMovie:catchErr(newMovie)
+    };

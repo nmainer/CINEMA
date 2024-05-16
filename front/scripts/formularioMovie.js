@@ -25,8 +25,15 @@ const enviarFormulario = ()=>{
 
   if(!title || !year || !director ||!duration || !genre || !rate || !poster){
     alert ("todos los campos son obligatorios");
+   return;
+  }
+
+  if (year.toString().length !== 4) {
+    alert ("año incorrecto");
     return;
   }
+    
+  
 
   const valorPeli = {title,year,director,duration,genre,rate,poster};
 

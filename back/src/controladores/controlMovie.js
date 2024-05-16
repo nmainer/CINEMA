@@ -13,6 +13,7 @@ const {catchErr} = require ("../Utils/catchErr");
      const { title,year,director,duration,genre,rate,poster} = req.body;
      const nuevaPeli = await crearPeli({title,year,director,duration,genre,rate,poster});
      res.status(201).json("pelicula cargada correctamente");
+     alert ("pelicula cargada correctamente");
     }
 
 
